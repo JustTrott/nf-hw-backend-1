@@ -7,7 +7,7 @@
 	},
 	"servers": [
 		{
-			"url": "http://localhost:3000/api/v1"
+			"url": "https://nf-hw-backend-1-production-5182.up.railway.app/api/v1"
 		}
 	],
 	"components": {
