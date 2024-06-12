@@ -35,6 +35,7 @@ class AuthService {
 		refreshToken: string;
 	} | null> {
 		const user = await UserModel.findOne({ email });
+		console.log(user);
 		if (!user) return null;
 
 		const isPasswordValid = await bcrypt.compare(password, user.password);

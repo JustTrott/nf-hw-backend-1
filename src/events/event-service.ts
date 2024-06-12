@@ -7,7 +7,7 @@ import { Event } from "./types/response";
 // this event service instance shows how to create a event, get a event by id, and get all events with in-memory data
 class EventService {
 	async getEventById(id: string): Promise<IEvent | null> {
-		return await EventModel.findOne({ id });
+		return await EventModel.findById(id);
 	}
 
 	async getEvents(
