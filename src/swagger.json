@@ -266,14 +266,6 @@
 					},
 					{
 						"in": "query",
-						"name": "limit",
-						"schema": {
-							"type": "integer",
-							"default": 10
-						}
-					},
-					{
-						"in": "query",
 						"name": "sortBy",
 						"schema": {
 							"type": "string",
