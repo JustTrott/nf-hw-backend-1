@@ -18,7 +18,7 @@ app.use("/api/v1/", globalRouter);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.get("/", (request, response) => {
-	response.send("Please go to /api/v1/events");
+	response.send("Please go to /api-docs");
 });
 
 app.listen(PORT, () => {
